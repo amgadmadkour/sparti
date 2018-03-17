@@ -1,0 +1,1 @@
+spark-submit --driver-memory 7g --master spark://172.18.11.209:7077 --class edu.purdue.sparti.partitioning.SpartiPartitioner target/uber-sparti-1.0-SNAPSHOT.jar -l dboutput/ -r hdfs://localhost:19000/user/amadkour/$1/ -q $2 -b watdiv

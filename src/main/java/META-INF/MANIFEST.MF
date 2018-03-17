@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: edu.purdue.sparti.data.parsers.querylogs.DBPediaQueryLogParser
+

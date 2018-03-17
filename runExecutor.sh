@@ -1,0 +1,1 @@
+spark-submit --driver-memory 7g --master yarn --class edu.purdue.sparti.queryprocessing.execution.SpartiExecutor target/uber-sparti-1.0-SNAPSHOT.jar -l dboutput/ -r hdfs://172.18.11.205:8020/user/amadkour/spartidb/ -q $1 -b watdiv
